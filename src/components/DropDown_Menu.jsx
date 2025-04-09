@@ -1,20 +1,23 @@
 import React from 'react';
 import { FaBars } from "react-icons/fa";
 import { Dropdown, message, Space } from 'antd';
+import H_profile from './H_profile';
+import Favorites from "./Favoriets";
+import Notification from "./Notification";
 const onClick = ({ key }) => {
     message.info(`Click on item ${key}`);
 };
 const items = [
     {
-        label: '1st menu item',
+        label: <H_profile/>,
         key: '1',
     },
     {
-        label: '2nd menu item',
+        label: <Favorites/> ,
         key: '2',
     },
     {
-        label: '3rd menu item',
+        label: <Notification/>,
         key: '3',
     },
 ];

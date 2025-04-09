@@ -18,28 +18,3 @@
     gap: 2rem;
     font-size: 3rem;
 }
-.fav {
-    color:gray;
-}
-.bell{
-    color: gray;
-}
-/* profile block */
-.profile{
-    display: flex;
-    gap: 1.5rem;
-}
-.profile img{
-    max-width: 30%;
-    height: 4rem;
-}
-.text{
-    width: 70%;
-    font-size: 2rem;
-}
-.text p{
-    margin: 0 ;
-}
-.email{
-    color: gray;
-}
