@@ -17,7 +17,7 @@ export default function Header({ }) {
                    <Favorites/>
                     <Notification/>
                     <H_profile/>
-                    <Menu/>
+                    {/* <Menu/> */}
                 </div>
             </div>
         </header>
