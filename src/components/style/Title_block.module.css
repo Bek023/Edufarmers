@@ -1,0 +1,33 @@
+.kantenir {
+    width: 112rem;
+    height: 29rem;
+    padding: 2rem;
+    background-image: url(../../image/Container.png);
+    background-size: cover;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: Mulish;
+    font-size: 4.8rem;
+    line-height: 120%;
+    color: white;
+}
+
+.text {
+    font-family: Mulish;
+    font-size: 1.6rem;
+    line-height: 120%;
+    color: rgb(218, 218, 218);
+}
+
+.btn {
+    width: 14.6rem;
+    height: 4.7rem;
+    border-radius: 1rem;
+    color: white;
+    background: rgb(0, 89, 76);
+
+}
