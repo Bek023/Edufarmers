@@ -2,3 +2,11 @@
     color: gray;
     font-size: 3rem;
 }
+.btn{
+    border: none;
+}
+.rasm{
+    margin-right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+}

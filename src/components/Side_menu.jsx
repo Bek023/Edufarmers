@@ -48,13 +48,8 @@ const Side_menu = () => {
     };
     return (
         <>
-            {/* <Switch onChange={changeMode} /> Change Mode */}
-            {/* <Divider type="vertical" /> */}
-            {/* <Switch onChange={changeTheme} /> Change Style */}
-            <br />
-            <br />
             <Menu
-                style={{ width: 256 }}
+                style={{ width: 256 , borderRight: '1px solid black'}}
                 defaultSelectedKeys={['1']}
                 // defaultOpenKeys={['sub1']}
                 // mode={mode}

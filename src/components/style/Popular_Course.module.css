@@ -1,0 +1,47 @@
+.block h2{
+    font-family: Mulish;
+    font-size: 3rem;
+}
+.grid_block{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.Courses{
+    min-width: 25rem;
+    margin: 0 0;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.Courses img{
+    width: 100%;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.Courses h4{
+    margin: 0.5rem  0;
+    font-family: Mulish;
+    font-size: 3rem;
+}
+.Courses p{
+    font-family: Mulish;
+    font-size: 2rem;
+}
+.Courses span{
+    font-family: Mulish;
+    font-size: 2rem;
+    color: gray;
+}
+.Courses button {
+    width: 12rem;
+    height: 4rem;
+    margin-left: 55%;
+    background-color: #d9e4e4;
+    color: #004b47;
+    border: none;
+    border-radius: 1rem;
+}

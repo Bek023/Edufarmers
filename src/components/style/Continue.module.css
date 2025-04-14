@@ -1,0 +1,79 @@
+.block {
+    width: 70%;
+}
+
+.title_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_block h2 {
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 3.1rem;
+    line-height: 120%;
+    letter-spacing: 0.5%;
+}
+
+.title_block p {
+    padding-top: 2rem;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 120%;
+    letter-spacing: 0.5%;
+    color: rgba(0, 89, 76, 1);
+
+}
+
+.a_course {
+    margin-top: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+    background: #fff;
+    border-radius: 1rem;
+
+}
+
+.a_course img {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 2rem;
+}
+
+.a_course h3 {
+    font-family: Mulish;
+    font-size: 2.4rem;
+    line-height: 120%;
+    letter-spacing: 0.5%;
+    color: rgba(3, 29, 27, 1);
+}
+
+.a_course p {
+    margin-bottom: 5rem;
+    font-family: Mulish;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.5%;
+    color: rgba(128, 165, 163, 1);
+}
+
+.a_course button {
+    width: 12.4rem;
+    height: 4.8rem;
+    border: none;
+    border-radius: 0.8rem;
+    background: rgba(0, 89, 76, 1);
+    color: #fff;
+
+}
+
+.a_title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

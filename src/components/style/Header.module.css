@@ -3,6 +3,8 @@
     padding: 2rem;
     display: flex;
     justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 1px solid black;
 }
 /* logo block */
 .logo{

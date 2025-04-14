@@ -2,8 +2,12 @@
   max-width: 144rem;
   margin: 0 auto;
   padding: 0rem;
+  background-color: rgb(235, 233, 233);
 }
-
+main{
+  padding: 2rem;
+}
 .app_block{
+  width: 100%;
   display: flex;
 }
