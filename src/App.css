@@ -4,6 +4,11 @@
   padding: 0rem;
   background-color: rgb(235, 233, 233);
 }
+/* *{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+} */
 main{
   padding: 2rem;
 }

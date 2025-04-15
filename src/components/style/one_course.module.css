@@ -1,0 +1,128 @@
+.main_block {
+    padding: 2rem;
+    width: 70%;
+}
+
+.main_block h1,
+.main_block h2,
+.main_block h3,
+.main_block h4,
+.main_block h5,
+.main_block h6 {
+    font-family: Mulish;
+    font-size: 3rem;
+    line-height: 120%;
+    letter-spacing: 0.5%;
+
+}
+
+.first_block,
+.second_block,
+.third_block {
+    margin-bottom: 2rem;
+    padding: 3rem;
+    border-radius: 2rem;
+    background: white;
+}
+
+.first_block img {
+    height: 30rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.first_block h2 {
+    font-family: Mulish;
+    font-size: 4rem;
+    line-height: 120%;
+    letter-spacing: 0.5%;
+}
+
+.first_block span,
+.first_block p {
+    font-family: Mulish;
+    font-size: 1.5rem;
+    line-height: 130%;
+    letter-spacing: 0.8%;
+    color: #9A9AB0;
+}
+
+.first_block p>span {
+    color: black;
+}
+
+.second_block p {
+    font-family: Mulish;
+    font-size: 1.5rem;
+    line-height: 130%;
+    letter-spacing: 0.8%;
+
+}
+
+.text_block {
+    display: flex;
+    gap: 3rem;
+}
+
+.text_block p {
+    position: relative;
+}
+
+.text_block p::before {
+    content: "✓";
+    position: absolute;
+    left: -2rem;
+    font-size: 2rem;
+}
+
+.text_block2 p {
+    position: relative;
+}
+
+.text_block2 p::before {
+    content: ' ';
+    display: inline-block;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: gray;
+    border-radius: 50%;
+    left: -2rem;
+    top: 0.3rem;
+}
+
+.third_block summary {
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 120%;
+    letter-spacing: 0.5%;
+}
+.third_block details {
+    padding: 2rem;
+}
+.third_block details>p {
+    position: relative;
+    margin-left: 2rem;
+    font-family: Mulish;
+    font-size: 1.4rem;
+    line-height: 130%;
+    letter-spacing: 0.8%;
+    color: #9A9AB0;
+}
+
+.third_block details>p::before {
+    content: '‣';
+    display: inline-block;
+    position: absolute;
+    left: -3rem;
+    padding-left : 0.6rem;
+    padding-top: 0.3rem;
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 3rem;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
